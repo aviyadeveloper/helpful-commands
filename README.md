@@ -15,7 +15,7 @@ Just a place to store useful bash / git / etc. commands
 `git rebase -i HEAD~<n-1>`
   
 ###### Stash unstaged changes
-`git stash .`
+`git stash save`
 
 ###### Recover stashed changes
 `git stash apply`
