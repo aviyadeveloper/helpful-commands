@@ -1,7 +1,8 @@
 # helpful-commands
 Just a place to store useful bash / git / etc. commands
 
-#### Bash
+### Bash
+
 ##### Awesome terminal command line costumization tool:
 `http://bashrcgenerator.com/`
 
@@ -14,7 +15,9 @@ Just a place to store useful bash / git / etc. commands
 ##### Edit bashrc for constant commands and shell variables
 `nano ~/.bashrc `
 
-#### Git
+----
+
+### Git
 
 ##### new local branch
 `git checkout -b <branch_name>`
@@ -25,16 +28,16 @@ Just a place to store useful bash / git / etc. commands
 ##### Push local changes to remote
 `git push`
 
-#### Push FORCE local changes to remote
+##### Push FORCE local changes to remote
 `git push -f`
 
-#### Reset and delete non-staged files
+##### Reset and delete non-staged files
 `git reset --hard`
 
-#### Reset but keep non-staged files
+##### Reset but keep non-staged files
 `git reset --soft`
 
-#### Log of local references
+##### Log of local references
 `git reflog`
 
 ##### Squash together n commits
@@ -52,6 +55,7 @@ Just a place to store useful bash / git / etc. commands
 ##### Clear stash
 `git stash drop`
 
+----
 #### Docker
 ##### Follow docker container log
 `docker logs --follow <container_name>
