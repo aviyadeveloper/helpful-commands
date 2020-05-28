@@ -2,12 +2,17 @@
 Just a place to store useful bash / git / etc. commands
 
 #### Bash
+##### Awesome terminal command line costumization tool:
+`http://bashrcgenerator.com/`
 
 ##### See all active ports on linux machine
 `sudo ss -tulwn | grep LISTEN`
 
 ##### Kill a running port on linux machine
 `sudo fuser -k 8000/tcp`
+
+##### Edit bashrc for constant commands and shell variables
+`nano ~/.bashrc `
 
 #### Git
 
@@ -46,3 +51,7 @@ Just a place to store useful bash / git / etc. commands
 
 ##### Clear stash
 `git stash drop`
+
+#### Docker
+##### Follow docker container log
+`docker logs --follow <container_name>
