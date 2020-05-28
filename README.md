@@ -57,5 +57,9 @@ Just a place to store useful bash / git / etc. commands
 
 ----
 #### Docker
+
+##### List running docker containers
+`docker ps`
+
 ##### Follow docker container log
-`docker logs --follow <container_name>
+`docker logs --follow <container_name>`
