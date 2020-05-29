@@ -63,3 +63,17 @@ Just a place to store useful bash / git / etc. commands
 
 ##### Follow docker container log
 `docker logs --follow <container_name>`
+
+----
+#### MongoDB
+
+##### Connection
+`mongo --username <username> --password <password> --authenticationDatabase admin`
+
+##### Allow querries on slave db
+`rs.slaveOk()`
+
+----
+### SSH
+##### Connect so ssh server
+`ssh <username>@<machine>`
