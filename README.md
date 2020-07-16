@@ -55,6 +55,9 @@ Just a place to store useful bash / git / etc. commands
 ##### Clear stash
 `git stash drop`
 
+##### Rename branch
+`git branch -m <old_name> <new_name>`
+
 ----
 #### Docker
 
