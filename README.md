@@ -9,7 +9,7 @@ Just a place to store useful bash / git / etc. commands
 ##### Nice cli made with it
 ```sh
 # Command Line Formatting
-export PS1="\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\n \[>
+export PS1="\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\n \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;4m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
 
 
