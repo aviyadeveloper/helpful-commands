@@ -6,6 +6,13 @@ Just a place to store useful bash / git / etc. commands
 ##### Awesome terminal command line costumization tool:
 `http://bashrcgenerator.com/`
 
+##### Nice cli made with it
+```sh
+# Command Line Formatting
+export PS1="\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\n \[>
+```
+
+
 ##### See all active ports on linux machine
 `sudo ss -tulwn | grep LISTEN`
 
